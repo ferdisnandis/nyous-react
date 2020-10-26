@@ -4,6 +4,7 @@ import Rodape from '../../components/rodape';
 import {Carousel, Jumbotron, Button, Container, Row, Col, Card} from 'react-bootstrap';
 
 const Home = () => {
+
     return (
     <div>
         <Menu />

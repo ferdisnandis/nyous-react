@@ -17,7 +17,7 @@ const Cadastrar = () => {
                     <br/>
                     <small>Informe os dados abaixo</small>
                     <hr />
-                    <Form.Group controlId="formBasicEmail">
+                    <Form.Group controlId="formBasicName">
                         <Form.Label>Nome completo </Form.Label>
                         <Form.Control type="text" placeholder="Insira seu nome completo" required />
                     </Form.Group>
