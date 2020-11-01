@@ -6,6 +6,7 @@ import { Container, Form, Button} from 'react-bootstrap'
 import Menu from '../../components/menu'
 import Rodape from '../../components/rodape'
 import './index.css';
+import {url} from '../../utils/'
 
 const Login = () => {
     let history = useHistory();
@@ -26,7 +27,7 @@ const Login = () => {
          senha : senha
     }
 
-        fetch('http://localhost:5000/api/account/login', {
+        fetch(url + '/account/login', {
         method : 'POST',
         body : JSON.stringify(login),
         headers :{
